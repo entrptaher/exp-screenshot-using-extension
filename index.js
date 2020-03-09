@@ -19,7 +19,7 @@ const screenshotExtArgs = require("./screenshot-extension");
   // call it using same browser and page arguments
   const result = await capturePage(browser, page);
   // the output is data src in base64, sanitize and save the data if want
-  await saveImage(result, 'screenshots/1-using-extenion.jpg');
+  await saveImage(result, 'screenshots/1-using-extension.jpg');
 
   // default screenshot function from browser
   await page.screenshot({path: 'screenshots/2-using-page-screenshot.png'})
