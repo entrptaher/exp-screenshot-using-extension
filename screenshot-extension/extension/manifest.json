@@ -1,0 +1,11 @@
+{
+  "name": "Capture Active Tab",
+  "version": "1.0.0",
+  "description": "Demonstrate screenshot functionality in the chrome.tabs api.",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "permissions": ["tabs", "<all_urls>"],
+  "manifest_version": 2
+}
